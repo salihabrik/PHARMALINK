@@ -1,4 +1,5 @@
 # PHARMALINK
 
 
-![Alt text](backg.jpg)
+![Alt text](img/back.jpg)
+
