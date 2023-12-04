@@ -164,7 +164,7 @@ li a:hover::after{
     justify-content: space-around;
     align-items: center;
     background-image: url(ba.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
