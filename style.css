@@ -163,9 +163,7 @@ li a:hover::after{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(img/ba.png);
-    background-size: contain;
-    background-position: center;
+   
 }
 
 .about-us-img img {
