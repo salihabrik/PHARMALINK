@@ -59,7 +59,7 @@ li a:hover::after{
     align-items: center;
     position: fixed;
     left: -100%;
-    top: 60px;
+    top: 80px;
     flex-direction: column;
     width: 100%;
     transition: 0.3s;
@@ -93,7 +93,7 @@ li a:hover::after{
     transition: 0.6s ease;
 }
 .navbar{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
@@ -127,7 +127,7 @@ li a:hover::after{
 
 .home{
     
-    background-image: url(background8.jpg);
+    background-image: url(img/background8.jpg);
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ li a:hover::after{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(ba.png);
+    background-image: url(img/ba.png);
     background-size: contain;
     background-position: center;
 }
