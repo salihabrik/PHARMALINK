@@ -24,6 +24,3 @@ searchInput.style.height = "40px";
 
 let searchButton = document.getElementById("searchButton");
 
-
-
-

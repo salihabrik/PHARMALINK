@@ -225,6 +225,9 @@ li a:hover::after{
 .container{
     max-width: 1200px;
     margin: auto;
+    
+    background-position: center;
+    background-size: cover;
 }
 form input,form textarea{
     flex: 1;
