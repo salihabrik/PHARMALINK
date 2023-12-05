@@ -191,5 +191,68 @@ li a:hover::after{
     }
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 90px;
+    padding: 0px 90px;
+}
 
+#contact {
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.contact-title{
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.contact-right {
+    flex-basis: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+   
+}
+.contact-right form{
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+form input,form textarea{
+    flex: 1;
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: whitesmoke;
+    padding: 15px ;
+    margin: 15px 0px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+
+.btn3{
+    font-size: 18px;
+    color: white;
+    border: 1px solid #fff;
+    background: var(--main-color);
+    padding: 7px ;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.end{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 10px;
+}
 
