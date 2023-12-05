@@ -3,8 +3,6 @@
 :root{
     --main-color:rgb(123, 255, 0);
 }
-
-
 *{
     font-family: 'Poppins', sans-serif;
     padding: 0;

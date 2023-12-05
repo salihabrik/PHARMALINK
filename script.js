@@ -1,5 +1,3 @@
-
-// make the header of website responsive 
 const sisi = document.querySelector(".sisi");
 const navMenu = document.querySelector(".nav-menu");
 
