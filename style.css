@@ -177,7 +177,7 @@ li a:hover::after{
 .about-us-text {
     flex: 2;
     max-width: 80%;
-    padding: 0 20px; /* Adjust padding as needed for spacing */
+    padding: 0 20px; 
     text-align:start;
     font-size: 19px;
     font-weight: 550px;
