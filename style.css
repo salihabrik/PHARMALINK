@@ -148,9 +148,14 @@ li a:hover::after{
     height: 100vh;
 }
 @media only screen and (max-width: 767px) {
-    .home {
-        background-size: contain; 
-        padding-top: 80px; /* تعديل المسافة العلوية حسب احتياجاتك */
+    .home { 
+        padding-top: 80px;
+        background-image: url(img/1000_F_282281123_X695bw4TA9qlsYvOKAjr8pshVDiBImKf.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px 0;
+}
     }
 }
 .container{
