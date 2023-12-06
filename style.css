@@ -149,14 +149,15 @@ li a:hover::after{
 }
 @media only screen and (max-width: 767px) {
     .home { 
-        padding-top: 80px;
+        
         background-image: url(img/1000_F_282281123_X695bw4TA9qlsYvOKAjr8pshVDiBImKf.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         padding: 50px 0;
+        padding-top: 200px;
 }
-    }
+    
 }
 .container{
     max-width: 1200px;
@@ -280,8 +281,8 @@ li a:hover::after{
 }
 
 .contact-right {
-    flex-basis: 60%;
-    max-width: 600px;
+    flex-basis: 100%;
+    max-width: 100%;
     margin: 0 auto;
    
 }
@@ -317,6 +318,11 @@ form input,form textarea{
     cursor: pointer;
 }
 @media only screen and (max-width: 767px) {
+    .contact-right {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0; 
+    }
     form input,
     form textarea {
         padding: 10px; 
