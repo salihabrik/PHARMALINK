@@ -148,6 +148,7 @@ li a:hover::after{
     margin-top: 10px;
     filter: drop-shadow(white);
     animation: bgColor 2s alternate infinite;
+    
 }
 @media only screen and (max-width: 767px) {
     .background-image-container {
@@ -156,7 +157,7 @@ li a:hover::after{
     }
     .home { 
         background-image: url(img/AdobeStock_282280654_Preview\ \(1\).jpeg);
-        background-size: cover;
+        background-size: auto;
         background-position: center;
         background-repeat: no-repeat;
         padding: 50px 0;
@@ -205,9 +206,9 @@ li a:hover::after{
         width: 80%;
         padding: 10px;
         font-size: 1rem;
-        margin-top: 10px;
+        margin-top: 20px;
     }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 400px) {
         #searchInput {
             width: 100%;
         }
@@ -240,6 +241,10 @@ li a:hover::after{
     
         .nav-branding {
             margin-right: 200px;
+        }
+        .search-icon {
+            margin-left: 0;  
+            margin-top: 10px; 
         }
     }
     
