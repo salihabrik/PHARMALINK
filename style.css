@@ -52,8 +52,7 @@ li a:hover::after{
 
 .nav-menu{
     display:flex;
-    justify-content:space-between;
-    align-items: center;
+    flex-direction: column;
     position: fixed;
     left: -100%;
     top: 80px;
@@ -61,9 +60,11 @@ li a:hover::after{
     width: 100%;
     transition: 0.3s;
     background-color: rgba(143, 188, 184, 0.719);
+    z-index: 1000;
 }
 .nav-item{
     margin-top: 10px;
+    text-align: center;
 
 }
 
@@ -73,12 +74,12 @@ li a:hover::after{
 }
 
 .nav-branding{
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     font-weight: 900;
     display: flex;
     align-items: center;
-    margin-right: 2000px;
+    margin-right: 1200px;
 
 }
 .man{
@@ -109,8 +110,13 @@ li a:hover::after{
     cursor:pointer;
     position:absolute;
     top: 20;
-    right: 100;
+    right: 20px;
     
+}
+@media only screen and (max-width: 767px) {
+    .nav-branding {
+        font-size: 24px;
+    }
 }
 .bar{
     display: block;
@@ -180,19 +186,24 @@ li a:hover::after{
     #search {
         text-align: center;
         width: 100%;
-        border-radius: 0cm;
-        justify-content: center;
+        margin-top: 20px;
     }
     .search-icon {
         margin-left: 10px;
-        cursor : pointer
+        cursor : pointer;
+        color : white
     }
     #searchInput {
         
         width: 80%;
         padding: 10px;
         font-size: 1rem;
-        margin-top: 20px;
+        margin-top: 10px;
+    }
+    @media only screen and (max-width: 767px) {
+        #searchInput {
+            width: 100%;
+        }
     }
     @media only screen and (min-width : 1024px){
         body {
@@ -281,10 +292,10 @@ li a:hover::after{
 }
 
 .contact-right {
-    flex-basis: 100%;
-    max-width: 100%;
+    flex-basis: 40%;
+    max-width: 700px;
     margin: 0 auto;
-   
+    text-align: center;
 }
 .contact-right form{
     width: 100%;
@@ -316,6 +327,13 @@ form input,form textarea{
     padding: 7px ;
     border-radius: 6px;
     cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+    
+    .btn3 {
+        font-size: 44px; 
+        padding: 10px 20px; 
+    }
 }
 @media only screen and (max-width: 767px) {
     .contact-right {
