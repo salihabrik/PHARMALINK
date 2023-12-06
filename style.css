@@ -291,6 +291,32 @@ form input,form textarea{
         background-image: url(img/AdobeStock_282280654_Preview\ \(1\).jpeg);
         background-size: contain;
         }
+        #search {
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .search-icon {
+            margin-left: 10px;
+            cursor : pointer;
+            color : black;
+            position: relative;
+            display: inline-block;
+            padding: 8px 20px;
+            
+            cursor: pointer;
+            border-radius: 60rem;
+            box-shadow: var(--main-color);
+            top: 3px;
+            right: 80px;
+        }
+        .search-icon:hover {
+            background-color: var(--main-color);
+            color: white;
+            transform: translate(-3px );
+            
+            color: var(--main-color);
+        }
         #searchInput {
             width: 100%;
         }
