@@ -148,7 +148,7 @@ li a:hover::after{
     margin-top: 10px;
     filter: drop-shadow(white);
     animation: bgColor 2s alternate infinite;
-    
+   
 }
 @media only screen and (max-width: 767px) {
     .background-image-container {
@@ -157,18 +157,8 @@ li a:hover::after{
     }
     .home { 
         background-image: url(img/AdobeStock_282280654_Preview\ \(1\).jpeg);
-        background-size: auto;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 50px 0;
-        padding-top: 200px;
-        align-items: center;
-        height: 100vh;
-        max-width: 100%;
-        border-radius: 80px;
-        margin-top: 10px;
-        filter: drop-shadow(white);
-        animation: bgColor 2s alternate infinite;
+        background-size: contain;
+        
 }
 }
     
