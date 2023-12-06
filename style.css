@@ -303,7 +303,6 @@ form input,form textarea{
             position: relative;
             display: inline-block;
             padding: 8px 20px;
-            
             cursor: pointer;
             border-radius: 60rem;
             box-shadow: var(--main-color);
@@ -364,15 +363,7 @@ form input,form textarea{
 
 
     
-    @media only screen and (min-width : 1024px){
-        body {
-            font-size: 18px;
-        }
-        #about-us {
-            padding: 100px;
-        }
-    } ;
-        
+   
     
 @media screen and (max-width: 570px) {
     .background-image-container {
@@ -386,6 +377,32 @@ form input,form textarea{
         #searchInput {
             width: 100%;
         }
+        #searchInput {
+            width: 100%;
+        }
+            .search-icon:hover {
+                background-color: var(--main-color);
+                color: white;
+                transform: translate(-3px );
+                
+                color: var(--main-color);
+            }
+            #searchInput {
+                position: relative;
+                display: inline-block;
+                padding: 18px 20px;
+                border-radius: 80rem;
+                box-shadow: var(--main-color);
+                font-size: 15px;
+                font-weight: 500;
+                transition: all 0.5s;
+                width: 80%;
+                padding: 10px;
+                margin-top: 20px;
+            }
+            #searchInput:focus {
+                outline: none;
+                box-shadow: 0 0 0 3px var(--main-color); 
         .background-image-container {
             display: none;
             margin-right: -100%;}
@@ -505,7 +522,15 @@ form input,form textarea{
         font-size: 10px;
     }
 };
-
+@media only screen and (min-width : 1024px){
+    body {
+        font-size: 18px;
+    }
+    #about-us {
+        padding: 100px;
+    }
+} ;
+    
 .end{
     text-align: center;
     margin-top: 70px;
