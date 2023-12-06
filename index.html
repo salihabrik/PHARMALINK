@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     
@@ -30,11 +30,9 @@
         </div>
         <ul class="nav-menu"id="menu">
             <li class="nav-item">
-                <a href="#home" class="nav-link">Home</a>
-            </li>
+                <a href="#home" class="nav-link">Home</a></li>
             <li class="nav-item">
-                <a href="#Search" class="nav-link">Search</a>
-            </li>
+                <a href="#Search" class="nav-link">Search</a></li>
             <li class="nav-item">
                 <a href="#about-us" class="nav-link">about us</a>
             </li>
@@ -47,7 +45,7 @@
     
 </header>
 <!-- ======================= home section =====================  -->
-<section id="home" class="home">
+<section id="home" class="home"data-aos="zoom-in-up">
         <div class="container">
             <div class="background-image-container"></div>
 
@@ -62,13 +60,13 @@
     
     <!-- ========================== start About section ====================== -->
     <section>
-    <section id="about-us" class="about-us">
+    <section id="about-us" class="about-us"data-aos="zoom-in-up">
         <div class="about-us-container">
             
             <div class="about-us-img">
                 <img src="img/background3.png" alt="Pharmalink">
             </div>
-            <div class="about-us-text">
+            <div class="about-us-text"data-aos="zoom-in-up">
                 <h1>about us</h1>
                 <p>
                     <br>
@@ -104,7 +102,7 @@ we are dedicated to unlocking health, one link at a time.
     <div class="container">
         <h2 class="contact-title ">Contact Us</h2>
         <div class="row">
-            <div class="contact-right">
+            <div class="contact-right"data-aos="zoom-in-up">
                 <form >
                     <input type="text" name="name" placeholder="your UserName" required>
                     <input type="email" name="email" placeholder="@gmail.com" required>
@@ -119,8 +117,14 @@ we are dedicated to unlocking health, one link at a time.
 
 <!-- ============= javaScript file link ============= -->
     <script src="script.js"></script>
- 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1200,
+        });
+    </script>
+<!-- [data-aos="zoom-in-up"]-->
     
 </body>
 </html>

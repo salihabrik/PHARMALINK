@@ -40,8 +40,6 @@ li a::after{
 li a:hover::after{
     width: 100%;
 }
-
-
 .logo {
     display: flex;
     width: 60px; 
@@ -49,30 +47,26 @@ li a:hover::after{
     border-radius: 90%;
     margin-right: 10%;
 }
-
 .nav-menu{
     display:flex;
     flex-direction: column;
     position: fixed;
     left: -100%;
-    top: 80px;
-    flex-direction: column;
+    top: 60px;
     width: 100%;
     transition: 0.3s;
-    background-color: rgba(143, 188, 184, 0.719);
+    background-color: rgba(41, 78, 73, 0.801);
     z-index: 1000;
+    transform: translate(-3px );
+    color: var(--main-color);
 }
 .nav-item{
     margin-top: 10px;
     text-align: center;
-
 }
-
 .nav-menu.active{
     left: 0;
-
 }
-
 .nav-branding{
     font-size: 30px;
     color: #fff;
@@ -80,41 +74,31 @@ li a:hover::after{
     display: flex;
     align-items: center;
     margin-right: 1200px;
-
 }
 .man{
     color: var(--main-color);
     font-size: 30px;
 }
-
 .nav-link{
     transition: 0.6s ease;
 }
 .navbar{
-    position: relative;
+    position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 2000;
+    background-color: rgba(41, 78, 73, 0.801); 
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0px 0px;
+    align-items: center;  
 }
-
-
-.nav-branding img {
-    border-radius: 90%; 
-    
-}
-
 .sisi{
     display:block;
     cursor:pointer;
     position:absolute;
     top: 20;
-    right: 20px;
-    
+    right: 20px;   
 }
-
-
 .bar{
     display: block;
     width: 25px;
@@ -123,13 +107,8 @@ li a:hover::after{
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
-    
-
 }
-
-
 .home{
-    
     background-image: url(img/pharm.jpeg);
     background-position:center;
     background-size:cover;
@@ -176,16 +155,41 @@ li a:hover::after{
     .search-icon {
         margin-left: 10px;
         cursor : pointer;
-        color : white
+        color : black;
+        position: relative;
+        display: inline-block;
+        padding: 8px 20px;
+        
+        cursor: pointer;
+        border-radius: 60rem;
+        box-shadow: var(--main-color);
+        top: 3px;
+        right: 80px;
+    }
+    .search-icon:hover {
+        background-color: var(--main-color);
+        color: white;
+        transform: translate(-3px );
+        
+        color: var(--main-color);
     }
     #searchInput {
-        
+        position: relative;
+        display: inline-block;
+        padding: 18px 20px;
+        border-radius: 80rem;
+        box-shadow: var(--main-color);
+        font-size: 15px;
+        font-weight: 500;
+        transition: all 0.5s;
         width: 80%;
         padding: 10px;
-        font-size: 1rem;
         margin-top: 20px;
     }
-
+    #searchInput:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px var(--main-color);
+    }
 /* start about section ====================================  */
 #about-us {
     padding : 50px ;
@@ -265,7 +269,7 @@ form input,form textarea{
     background: whitesmoke;
     padding: 15px ;
     margin: 15px 0px;
-    color: #fff;
+    color: black;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -344,7 +348,114 @@ form input,form textarea{
     } ;
         
     
-   
+@media screen and (max-width: 570px) {
+    .background-image-container {
+        display: none;
+        margin-right: -50%;
+    }
+    .home { 
+        background-image: url(img/AdobeStock_282280654_Preview\ \(1\).jpeg);
+        background-size: contain;
+        }
+        #searchInput {
+            width: 100%;
+        }
+        .background-image-container {
+            display: none;
+            margin-right: -100%;}
+        .responsive-image {
+            display: none; 
+            scroll-margin-right: -100%;
+        }
+        .nav-menu {
+            top: 60px;
+        }
+        
+        .nav-item {
+            margin-top: 10px;
+        }
+    
+        .nav-branding {
+            margin-right: 200px;
+        }
+        .search-icon {
+            margin-left: 0;  
+            margin-top: 10px; 
+        }
+        .btn3 {
+            font-size: 44px; 
+            padding: 10px 20px; 
+        }
+    
+    .contact-right {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0; 
+    }
+    form input,
+    form textarea {
+        padding: 10px; 
+        font-size: 16px; }
+    
+    .btn3 {
+        font-size: 10px;
+    }
+};
+    
+@media screen and (max-width: 480px) {
+    .background-image-container {
+        display: none;
+        margin-right: -50%;
+    }
+    .home { 
+        background-image: url(img/AdobeStock_282280654_Preview\ \(1\).jpeg);
+        background-size: contain;
+        }
+        #searchInput {
+            width: 100%;
+        }
+        .background-image-container {
+            display: none;
+            margin-right: -100%;}
+        .responsive-image {
+            display: none; 
+            scroll-margin-right: -100%;
+        }
+        .nav-menu {
+            top: 60px;
+        }
+        
+        .nav-item {
+            margin-top: 10px;
+        }
+    
+        .nav-branding {
+            margin-right: 200px;
+        }
+        .search-icon {
+            margin-left: 0;  
+            margin-top: 10px; 
+        }
+        .btn3 {
+            font-size: 44px; 
+            padding: 10px 20px; 
+        }
+    
+    .contact-right {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0; 
+    }
+    form input,
+    form textarea {
+        padding: 10px; 
+        font-size: 16px; }
+    
+    .btn3 {
+        font-size: 10px;
+    }
+};
+
 .end{
     text-align: center;
     margin-top: 70px;
