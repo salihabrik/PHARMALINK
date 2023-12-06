@@ -124,7 +124,7 @@ li a:hover::after{
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .background-image-container {
         display: none;
         margin-right: -100%;
@@ -142,12 +142,17 @@ li a:hover::after{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top:150px ;
-    height: 80vh;
+    padding-top:250px ;
+    height: 90vh;
     align-items: center;
     height: 100vh;
 }
-
+@media only screen and (max-width: 767px) {
+    .home {
+        background-size: contain; 
+        padding-top: 80px; /* تعديل المسافة العلوية حسب احتياجاتك */
+    }
+}
 .container{
     max-width: 1200px;
     margin: auto;
@@ -168,7 +173,9 @@ li a:hover::after{
     }
     #search {
         text-align: center;
+        width: 100%;
         border-radius: 0cm;
+        justify-content: center;
     }
     .search-icon {
         margin-left: 10px;
@@ -191,7 +198,7 @@ li a:hover::after{
     } ;
         
     
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
         .background-image-container {
             display: none;
             margin-right: -100%;}
