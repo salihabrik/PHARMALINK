@@ -50,7 +50,6 @@ li a:hover::after{
     margin-right: 10%;
 }
 
-
 .nav-menu{
     display:flex;
     justify-content:space-between;
@@ -61,10 +60,10 @@ li a:hover::after{
     flex-direction: column;
     width: 100%;
     transition: 0.3s;
-    background-color: rgb(188, 172, 143);
+    background-color: rgba(143, 188, 184, 0.719);
 }
 .nav-item{
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
@@ -91,10 +90,12 @@ li a:hover::after{
     transition: 0.6s ease;
 }
 .navbar{
+    position: relative;
+    top: 0;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 0px 0px;
 }
 
 
@@ -104,7 +105,7 @@ li a:hover::after{
 }
 
 .sisi{
-    display: block;
+    display:block;
     cursor:pointer;
     position:absolute;
     top: 20;
@@ -123,9 +124,16 @@ li a:hover::after{
 
 }
 
+@media only screen and (max-width: 768px) {
+    .background-image-container {
+        display: none;
+        margin-right: -100%;
+    }
+}
+
 .home{
     
-    background-image: url(img/background8.jpg);
+    background-image: url(img/pharm.jpeg);
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -134,13 +142,16 @@ li a:hover::after{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top:250px ;
-    height: 90vh;
+    padding-top:150px ;
+    height: 80vh;
     align-items: center;
     height: 100vh;
 }
+
 .container{
-    flex: 1;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
     padding: 0 20px; 
     text-align:start;
     font-size: 19px;
@@ -148,17 +159,67 @@ li a:hover::after{
     color: whitesmoke;
     align-content: center;
     }
-
+   
     body {
+        font-size: 16px;
         margin: 20;
         font-family: Arial, sans-serif;
-        background-color:rgb(188, 172, 143);
+        background-color:rgba(143, 188, 184, 0.719);
     }
-
+    #search {
+        text-align: center;
+        border-radius: 0cm;
+    }
+    .search-icon {
+        margin-left: 10px;
+        cursor : pointer
+    }
+    #searchInput {
+        
+        width: 80%;
+        padding: 10px;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    @media only screen and (min-width : 1024px){
+        body {
+            font-size: 18px;
+        }
+        #about-us {
+            padding: 100px;
+        }
+    } ;
+        
+    
+    @media only screen and (max-width: 768px) {
+        .background-image-container {
+            display: none;
+            margin-right: -100%;}
+        .responsive-image {
+            display: none; 
+            scroll-margin-right: -100%;
+        }
+        .nav-menu {
+            top: 60px;
+        }
+        
+        .nav-item {
+            margin-top: 10px;
+        }
+    
+        .nav-branding {
+            margin-right: 200px;
+        }
+    }
+    
 /* start about section ====================================  */
-
+#about-us {
+    padding : 50px ;
+    text-align: center;
+}
 .about-us-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
    
@@ -182,12 +243,7 @@ li a:hover::after{
     color: black;
     }
 
-@media(max-width:880px){
-    
-    .sisi{
-        display: block;
-    }
-}
+   
 
 .row{
     display: flex;
@@ -198,7 +254,7 @@ li a:hover::after{
 }
 
 #contact {
-    background-image: url(img/back.jpg);
+    background-image: url(img/1000_F_282281123_X695bw4TA9qlsYvOKAjr8pshVDiBImKf.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -248,10 +304,17 @@ form input,form textarea{
     border-radius: 6px;
     cursor: pointer;
 }
-
+@media only screen and (max-width: 767px) {
+    form input,
+    form textarea {
+        padding: 10px; 
+        font-size: 16px; }
+    }
+    .btn3 {
+        font-size: 10px;
+}
 .end{
     text-align: center;
     margin-top: 70px;
     padding-bottom: 10px;
 }
-

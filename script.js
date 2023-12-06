@@ -14,11 +14,15 @@ document.querySelectorAll(".nav-link").forEach(n =>n.addEventListener("click",()
 
 let searchInput = document.getElementById("searchInput");
 
-searchInput.value = "Enter medicine name!";
+
 
 searchInput.placeholder = "Enter medicine name!"
 searchInput.style.width = "300px";
 searchInput.style.height = "40px";
 
-let searchButton = document.getElementById("searchButton");
 
+
+//let searchButton = document.getElementById("searchButton");
+searchInput.addEventListener("click", () => {
+    alert("done")
+})

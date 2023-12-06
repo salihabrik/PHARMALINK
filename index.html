@@ -23,7 +23,7 @@
             <span>P</span><span class="man">harmalink</span>
         </a> 
         
-        <div class="sisi">
+        <div class="sisi" onclick="toggleMenu()">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
@@ -49,9 +49,12 @@
 <!-- ======================= home section =====================  -->
 <section id="home" class="home">
         <div class="container">
+            <div class="background-image-container"></div>
+
                 <div id="search">
-                    <span class="search-icon">🔍</span>
+                    
                     <input type="text" id="searchInput" placeholder="Enter medicine name!">
+                    <span class="search-icon"><i class="fas fa-search"></i></span>
                 </div>   
         </div>
     </section>
@@ -105,7 +108,7 @@ we are dedicated to unlocking health, one link at a time.
                 <form >
                     <input type="text" name="name" placeholder="your UserName" required>
                     <input type="email" name="email" placeholder="@gmail.com" required>
-                    <textarea name="Message"   rows="6" placeholder="Hello" required></textarea>
+                    <textarea name="Message"   rows="6" placeholder="Your Message" required></textarea>
                     <button type="submit" class="btn3">Submit</button>
                 </form>
             </div>
