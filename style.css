@@ -507,7 +507,8 @@ form input,form textarea{
             border-radius: 60rem;
             box-shadow: var(--main-color);
             top: -48px;
-            right: -100px;
+            right: -100px;}
+            
             .search-icon:hover {
                 background-color: var(--main-color);
                 color: white;
