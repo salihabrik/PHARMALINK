@@ -1,5 +1,5 @@
 # PHARMALINK
 
 
-![Alt text](img/back.jpg)
+![Alt text](img/qz.jpg)
 
