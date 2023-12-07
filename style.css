@@ -159,7 +159,6 @@ li a:hover::after{
         position: relative;
         display: inline-block;
         padding: 8px 20px;
-        
         cursor: pointer;
         border-radius: 60rem;
         box-shadow: var(--main-color);
@@ -417,13 +416,8 @@ form input,form textarea{
         #searchInput {
             width: 100%;
         }
-            .search-icon:hover {
-                background-color: var(--main-color);
-                color: white;
-                transform: translate(-3px );
-                
-                color: var(--main-color);
-            }
+            
+        
             #searchInput {
                 position: relative;
                 display: inline-block;
@@ -439,7 +433,8 @@ form input,form textarea{
             }
             #searchInput:focus {
                 outline: none;
-                box-shadow: 0 0 0 3px var(--main-color); 
+                box-shadow: 0 0 0 3px var(--main-color);
+            } 
         .background-image-container {
             display: none;
             margin-right: -100%;}
@@ -459,8 +454,7 @@ form input,form textarea{
             margin-right: 200px;
         }
         .search-icon {
-            margin-left: 0;  
-            margin-top: 10px; 
+            display: none; 
         }
         .btn3 {
             font-size: 44px; 
@@ -480,7 +474,7 @@ form input,form textarea{
     .btn3 {
         font-size: 10px;
     }
-}
+
 };
     
 @media screen and (max-width: 480px) {
@@ -496,25 +490,8 @@ form input,form textarea{
             width: 100%;
         }
         .search-icon {
-            margin-left: 10px;
-            cursor : pointer;
-            color : black;
-            position: relative;
-            display: inline-block;
-            padding: 8px 20px;
-            
-            cursor: pointer;
-            border-radius: 60rem;
-            box-shadow: var(--main-color);
-            top: -48px;
-            right: -100px;}
-            
-            .search-icon:hover {
-                background-color: var(--main-color);
-                color: white;
-                transform: translate(-3px );
-                
-                color: var(--main-color);
+          
+            display: none;
             }
             #searchInput {
                 position: relative;
