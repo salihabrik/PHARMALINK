@@ -1,4 +1,3 @@
-// JavaScript code in script.js
 
 const sisi = document.querySelector(".sisi");
 const navMenu = document.querySelector(".nav-menu");
@@ -21,7 +20,7 @@ searchInput.style.height = "40px";
 
 // Define toggleMenu globally
 window.toggleMenu = function() {
-    sisi.classList.toggle("active");
+    sisi.classList.toggle("bx-x");
     navMenu.classList.toggle("inactive");
 };
 
