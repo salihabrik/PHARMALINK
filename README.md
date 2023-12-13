@@ -29,11 +29,6 @@ Of all the things that a potential employer looks at, code is the most important
 
 PharmiLink aims to unlock health, one link at a time, by simplifying the way people access medications and healthcare services. Our user-friendly app is designed to enhance your well-being and provide you with essential health information whenever you need it.
 
-## Demo
-
-![PharmiLink Demo](link-to-your-demo-gif.gif)
-
-Check out our live demo [here](link-to-your-live-demo).
 
 ## Features
 
@@ -57,7 +52,7 @@ npm start
 
 # PharmiLink: Swift Pharmacy Search
 
-![PharmiLink Logo]([Alt text](img/background3.png))
+![Alt text](img/background3.png)
 
 PharmiLink is a revolutionary app that simplifies the process of finding the right medication and the nearest pharmacy. In a world where quick access to healthcare is crucial, PharmiLink comes to the rescue.
 
@@ -83,7 +78,7 @@ PharmiLink aims to unlock health, one link at a time, by simplifying the way peo
 
 ## Demo
 
-![PharmiLink Demo](link-to-your-demo-gif.gif)
+![log](img/background3.png)
 
 Check out our live demo [here](https://www.loom.com/share/7bef02396ce04789b7c4835dc0e9c354?sid=6a1ce179-720e-4bc6-b7e5-e159caef75d9).
 
@@ -95,20 +90,9 @@ Check out our live demo [here](https://www.loom.com/share/7bef02396ce04789b7c483
 - **Dosage and Usage Info:** Access essential dosage and usage information for every medication.
 - **User-Friendly Profiles:** Customize your user profile to receive relevant updates and medication suggestions.
 
-## Installation
-
-To get started with PharmiLink, follow these simple installation steps:
-
-```bash
    
+## Usage
 
-git clone https://github.com/your-username/pharmilink.git
-cd pharmilink
-npm install
-npm start
-    
-    ```
-Usage
 PharmiLink is straightforward to use:
 
 Enter the name of the medication you're looking for.
