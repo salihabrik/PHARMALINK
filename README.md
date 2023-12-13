@@ -38,8 +38,6 @@ PharmiLink aims to unlock health, one link at a time, by simplifying the way peo
 
 ## Demo
 
-![log](img/background3.png)
-
 Check out our live demo [here](https://www.loom.com/share/7bef02396ce04789b7c4835dc0e9c354?sid=6a1ce179-720e-4bc6-b7e5-e159caef75d9).
 
 ## Features
@@ -92,14 +90,19 @@ We welcome contributions! If you'd like to contribute to PharmiLink, please foll
 
 This project was brought to you by a dedicated team of developers:
 
-### [Your Name]
+### [mahmoud yossef]
+- [GitHub](link-to-your-github)
+- [LinkedIn](link-to-your-linkedin)
+- [Email](your-email@example.com)
+
+### [bechoy ayad]
 - [GitHub](link-to-your-github)
 - [LinkedIn](link-to-your-linkedin)
 - [Email](your-email@example.com)
 
 ### [SALIHA BRIK]
-- [GitHub](salihabrik)
-- [LinkedIn](briksaliha)
+- [GitHub](shttps://github.com/salihabrik)
+- [LinkedIn](http://linkedin.com/in/salihabrik)
 - [Email](briksaliha@example.com)
 
 ## License
