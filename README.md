@@ -9,7 +9,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Flutter](https://img.shields.io/badge/Flutter-1572B6?style=flat&logo=Flutter&logoColor=white)
 ![github](https://img.shields.io/badge/github-1572B6?style=flat&logo=github&logoColor=black)
-![git](https://img.shields.io/badge/git-1572B6?style=flat&logo=Git&logoColor=white)
+![git](https://img.shields.io/badge/git-1572B6?style=flat&logo=Git&logoColor=red)
 ![canva](https://img.shields.io/badge/canva-1572B6?style=flat&logo=canva&logoColor=black)
 
 Welcome to PharmiLink: Swift Pharmacy Search, a project crafted with a passion for quick and efficient medication search. Our goal is to simplify the process of finding the right medication and locating the nearest pharmacy.
