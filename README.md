@@ -55,6 +55,7 @@ Check out our live demo [here](https://www.loom.com/share/7bef02396ce04789b7c483
 ### Prerequisites
 
 - [Dart](https://dart.dev/)
+- [Flutter](https://Flutter.dev/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
