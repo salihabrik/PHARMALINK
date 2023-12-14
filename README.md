@@ -7,6 +7,10 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Flutter](https://img.shields.io/badge/Flutter -1572B6?style=flat&logo=Flutter&logoColor=white)
+![github](https://img.shields.io/badge/github-1572B6?style=flat&logo=github&logoColor=white)
+![git](https://img.shields.io/badge/git-1572B6?style=flat&logo=git&logoColor=white)
+![canva](https://img.shields.io/badge/canva-1572B6?style=flat&logo=canva&logoColor=white)
 
 Welcome to PharmiLink: Swift Pharmacy Search, a project crafted with a passion for quick and efficient medication search. Our goal is to simplify the process of finding the right medication and locating the nearest pharmacy.
 
@@ -83,24 +87,24 @@ We welcome contributions! If you'd like to contribute to PharmiLink, please foll
 
 ## Screenshots
 
-![PharmiLink Screenshot 1](![Alt text](img/pharmalink1.jpg))
-![PharmiLink Screenshot 2](![Alt text](img/pharmalink.jpg))
+![Alt text](img/pharmalink1)
+![Alt text](img/pharmalink.jpg)
 ![Alt text](img/pharmalink2.jpg)
 ## Team
 
 This project was brought to you by a dedicated team of developers:
 
-### [mahmoud yossef]
+### mahmoud Youssef
 - [GitHub](link-to-your-github)
 - [LinkedIn](link-to-your-linkedin)
 - [Email](your-email@example.com)
 
-### [bechoy ayad]
+### bechoy ayad
 - [GitHub](link-to-your-github)
 - [LinkedIn](link-to-your-linkedin)
 - [Email](your-email@example.com)
 
-### [SALIHA BRIK]
+### SALIHA BRIK
 - [GitHub](shttps://github.com/salihabrik)
 - [LinkedIn](http://linkedin.com/in/salihabrik)
 - [Email](briksaliha@example.com)
