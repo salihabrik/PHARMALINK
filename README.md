@@ -88,7 +88,7 @@ We welcome contributions! If you'd like to contribute to PharmiLink, please foll
 
 ## Screenshots
 
-![Alt text](img/pharmalink1)
+![Alt text](img/pharmalink1.jpg)
 ![Alt text](img/pharmalink.jpg)
 ![Alt text](img/pharmalink2.jpg)
 ## Team
